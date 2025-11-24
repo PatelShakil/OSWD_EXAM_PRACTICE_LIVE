@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+</head>
+<body>
+    Add Product <br><br>
+
+    <form action="/product/add" method="post" enctype="multipart/form-data">
+        Name : <input type="text" name="name"><br>
+        Price : <input type="number" name="price"><br>
+        Category : <select name="category">
+            <option value="">Select Category</option>
+        <% categories.forEach(element => { %>
+            <option value="<%= element._id %>"><%= element.name %></option>
+        <% }); %>
+        </select><br>
+        Product Image : <input type="file" name="photo"/><br>
+        <input type="submit" value="Add Product" />
+    </form>
+    
+</body>
+</html>
