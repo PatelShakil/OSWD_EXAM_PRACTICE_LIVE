@@ -205,10 +205,3 @@ The livestream showcased step-by-step implementation to help students prepare fo
 Computer Science Enthusiast · Software Engineer · Android + Full Stack Developer
 
 ---
-
-If you want, I can also add:
-
-* Full ZIP folder
-  a- Detailed installation guide
-  a- Screenshots for documentation
-* Database sample records
