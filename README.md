@@ -201,7 +201,7 @@ The livestream showcased step-by-step implementation to help students prepare fo
 
 # 🙌 Author
 
-**M. Shakil Patel**
+**MuhammadShakil Patel**
 Computer Science Enthusiast · Software Engineer · Android + Full Stack Developer
 
 ---
